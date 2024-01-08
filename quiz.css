@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(52, 89, 1);
+}
+.app{
+    background-color: whitesmoke;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+.app h1{
+    font-size: 25px;
+    color: rgb(146, 190, 0);
+    font-weight: 900;
+    border-bottom: 2px dotted;
+    padding-bottom: 20px;
+}
+.quiz{
+    padding: 20px 0;
+}
+
+.quiz h2{
+    font-size: 18px;
+    color: rgb(154, 129, 96);
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.btn{
+    background-color: white;
+    color: rgb(154, 129, 96);
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn:hover:not([disabled]){
+    background-color: rgb(154, 129, 96);
+    color: whitesmoke;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+#nextBtn{
+    background-color: rgb(146, 190, 0);
+    color: whitesmoke;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}
+.correct{
+    background-color: rgb(126, 187, 35);
+    color: white;
+}
+.incorrect{
+    background-color: rgb(203, 78, 78);
+    color: white;
+}
